@@ -1,0 +1,56 @@
+
+/* General Styles for Footer */
+footer {
+    padding: 20px;
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    text-align: center;
+    border-top: 2px solid #0056b3; /* Darker blue border at the top */
+}
+
+.Contact-Me {
+    max-width: 800px; /* Limit content width for better readability */
+    margin: 0 auto; /* Center the content */
+}
+
+.Contact-Me h3 {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+}
+
+.Contact-Me a {
+    display: inline-flex; /* Align icons and text */
+    align-items: center;
+    text-decoration: none;
+    color: #fff; /* White text */
+    margin: 0 10px 10px 0; /* Space between links */
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.Contact-Me a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighter background on hover */
+}
+
+.Contact-Me a i {
+    margin-right: 8px; /* Space between icon and text */
+    font-size: 1.2rem;
+}
+
+.Contact-Me p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.Contact-Me p a {
+    color: #fff; /* White text for email link */
+    text-decoration: underline; /* Underline for email link */
+    padding: 0; /* Remove padding for email link */
+    background-color: transparent; /* No background for email link */
+}
+
+.Contact-Me p a:hover {
+    color: #f8f9fa; /* Lighter text on hover */
+}

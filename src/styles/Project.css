@@ -1,0 +1,39 @@
+/* General Styles for My Projects Section */
+#my-projects {
+    padding: 40px 20px;
+    background-color: #b7d4f1; /* White background */
+    border-radius: 30px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: relative;
+
+}
+
+#my-projects h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+}
+
+#my-projects ol {
+    list-style-type: none; /* Remove default numbering */
+    padding: 0;
+    margin: 0;
+}
+
+#my-projects ol li {
+    background-color: #f8f9fa; /* Light background for list items */
+    padding: 15px;
+    margin-bottom: 10px; /* Space between list items */
+    border-radius: 8px; /* Rounded corners for list items */
+    font-size: 1.1rem;
+    color: #333;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth hover effect */
+}
+
+#my-projects ol li:hover {
+    background-color: #007bff; /* Blue background on hover */
+    color: #fff; /* White text on hover */
+    transform: translateX(10px); /* Slight move to the right on hover */
+}

@@ -1,0 +1,53 @@
+/* General Styles for About Me Section */
+#About-Me {
+    padding: 40px 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.about-me-content {
+    max-width: 800px; /* Limit content width for better readability */
+    margin: 0 auto; /* Center the content */
+}
+
+#About-Me h2 {
+    font-size: 2rem;
+    color: #007bff; /* Blue color for the main heading */
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+}
+
+#About-Me h3 {
+    font-size: 1.5rem;
+    color: #333; /* Dark color for subheadings */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007bff; /* Blue underline for subheadings */
+    padding-bottom: 5px;
+}
+
+#About-Me p {
+    font-size: 1rem;
+    color: #666; /* Gray color for text */
+    line-height: 1.6; /* Improve readability */
+    margin-bottom: 10px;
+}
+
+#About-Me p strong {
+    color: #333; /* Dark color for strong text */
+}
+
+#About-Me ul {
+    list-style-type: disc; /* Use bullet points */
+    padding-left: 20px; /* Indent the list */
+    margin-bottom: 20px;
+}
+
+#About-Me ul li {
+    font-size: 1rem;
+    color: #666; /* Gray color for list items */
+    line-height: 1.6; /* Improve readability */
+    margin-bottom: 5px;
+}

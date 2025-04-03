@@ -1,0 +1,108 @@
+/* Home Section */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 5%; /* More natural spacing */
+  background: linear-gradient(135deg, #e6f2ff, #ffffff); /* Soft gradient */
+  border-radius: 12px;
+  margin: 50px auto;
+  max-width: 1200px; /* Keep content aligned */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect - Slight Lift */
+.home:hover {
+  transform: scale(1.02);
+}
+
+/* Home Text */
+.home-text {
+  max-width: 50%;
+}
+
+.home-text h1 {
+  font-size: 2.8rem;
+  color: #212529;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.home-text h3 {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.home-text p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
+  opacity: 0.9;
+}
+
+/* Home Image */
+.home-image {
+  max-width: 40%;
+  text-align: center;
+}
+
+.home-image img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 20px; /* Slightly rounded for a modern look */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Subtle Image Hover Effect */
+.home-image img:hover {
+  transform: scale(1.05) rotate(1deg);
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .home {
+      display: flex;
+      flex-wrap: wrap; /* Allows wrapping instead of forced stacking */
+      justify-content: center; /* Centers content */
+      align-items: center;
+      text-align: center;
+      padding: 40px 15px;
+  }
+
+  .home-text {
+      flex: 1 1 100%; /* Full width on smaller screens */
+      margin-bottom: 20px;
+      padding: 0 10px; /* Adds padding to prevent text from touching edges */
+      margin-top: 50px;
+  }
+
+  .home-text h1 {
+      font-size: 2rem;
+  }
+
+  .home-text h3 {
+      font-size: 1.4rem;
+      margin-top: 10px;
+      position: relative; /* Prevent it from going behind */
+      z-index: 10; /* Make sure it appears above */
+  }
+
+  .home-text p {
+      font-size: 1rem;
+      line-height: 1.6; /* Improves readability */
+  }
+
+  .home-image {
+      flex: 1 1 80%; /* Scales image properly */
+      max-width: 70%; /* Prevents it from being too large */
+      margin: auto; /* Centers the image */
+  }
+}
